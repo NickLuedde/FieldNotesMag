@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Router from "./components/router";
+import Header from "./components/header";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Landing from "./components/Landing";
+import "./components/MainPage.css";
+import FieldNotes from "./components/FieldNotes";
+import DailyReadings from "./components/DailyReadings";
+import Podcasts from './components/Podcasts';
+import News from './components/News';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+     
+      <Router path="/">
+        <Landing/>
+      </Router>
+
+
+      {/* //About Section */}
+      <Router path="/About">
+        <About />
+      </Router>
+
+       {/* //From The Editor */}
+       <Router path="/FieldNotes">
+        <FieldNotes />
+      </Router>
+
+         {/* //Daily Readings Section */}
+         <Router path="/DailyReadings">
+        <DailyReadings />
+      </Router>
+
+       {/* //PodcastsSection */}
+       <Router path="/Podcasts">
+        <Podcasts />
+      </Router>
+
+      
+       {/* //PodcastsSection */}
+       <Router path="/News">
+        <News />
+      </Router>
+
+      {/* //The Footer  */}
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

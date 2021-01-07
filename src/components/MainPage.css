@@ -1,0 +1,264 @@
+* {
+  background-color: White;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  color: #404044;
+}
+
+body {
+  color: #6b6e70;
+  /* The image used */
+  background-image: linear-gradient(to bottom, #556b2f56, #3e3d3d3b),
+    url(./Images/fishcover0121.jpg);
+
+  /* Full height */
+  height: 130%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HeaderImage {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 40%;
+  background-color: #acb3a3;
+}
+
+.logo.ui.segment {
+  padding: 0%;
+  margin-right: 15%;
+  border: transparent;
+  color: #404044;
+}
+
+.Title {
+  text-align: center;
+  font-size: 130px;
+  padding: 0px 0px 0px 0px;
+  color: #3e3d3d;
+  background-color: transparent;
+}
+
+.color1 {
+  color: #507282;
+  font-size: 40px;
+  font-family: 'Calligraffitti', cursive;
+  margin: -8px;
+  margin-left: -20px;
+  background-color: #acb3a3;
+}
+
+.First_Letter {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: -9%;
+  font-size: 33px;
+  color: #556b2f;
+  background-color: transparent;
+  margin-right: .25px;
+}
+
+.Abril {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.Bebe {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.Cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.Fjalla {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.Satisfy {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 110px;
+  color: #4e6a77;
+}
+
+.Pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.Berkshire {
+  font-family: 'Berkshire Swash', cursive;
+  color: #4e6a77;
+}
+
+.Gloria {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #4e6a77;
+}
+
+.Italianno {
+  font-family: 'Italianno', cursive;
+  color: #4e6a77;
+}
+
+.Tangerine {
+  font-family: 'Tangerine', cursive;
+  color: #556b2f;
+  font-size: 190px;
+  margin-left: -2%;
+}
+
+.NavText {
+  background-color: #acb3a3;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3e3d3d;
+  text-align: center;
+}
+
+.about {
+  background-color: #3e3d3d;
+}
+
+.about1 {
+  color: white;
+}
+
+.gradient {
+  background-color: #abb2a3;
+  /*//mozilla*/
+  background: -moz-linear-gradient(bottom, #8e997d, #3E3D3D3b);
+  /* Chrome/Safari     */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#8e997d),
+    to(#3E3D3D3b)
+  );
+  /*IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.Gradient(
+      GradientType=2,
+      StartColorStr='#556b2f56',
+      EndColorStr='#3E3D3D3b'
+    );
+  /*IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#556b2f56, endColorstr=#3E3D3D3b)";
+}
+
+.Title_About {
+  text-align: center;
+  font-size: 120px;
+  padding: 45px 0px 0px 0px;
+  color: #556b2f;
+  background-color: transparent;
+  border-bottom: 2px solid #556b2f;
+}
+
+.Title_About1 {
+  text-align: left;
+  font-size: 215px;
+  padding: 0px 0px 0px 0px;
+  background-color: transparent;
+  color: #3e3d3d;
+}
+
+.Second_Letter {
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;
+  font-size: 48px;
+  color: #556b2f;
+  background-color: transparent;
+  margin-right: .25px;
+}
+
+.Date {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-right: 00px;  
+}
+.Date1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: #556b2f;
+  background-color: transparent;
+  margin-right: .25px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 35px;
+}
+
+.fade {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.fade {
+  height: 100px;
+  float: left;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.fade:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+.zip:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+/* Underline Reveal */
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
